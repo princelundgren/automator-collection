@@ -25,3 +25,7 @@ I want to Mount and Unmount the drive whenever I want. I want to unmount the Dri
 Export the Scripts as Applications, and just launch them to Mount/Unmount the Hard drive.
 RENAME THE DRIVE NAME IN THE SCRIPT TO YOUR DRIVE. MINE IS CALLED "Hard Drive"
 
+
+# How to change .app logo
+Rightclick .app, then press "Get Info".
+Drag and drop your logo to the tiny logo in the top-left corner of the window
