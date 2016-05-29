@@ -27,5 +27,7 @@ RENAME THE DRIVE NAME IN THE SCRIPT TO YOUR DRIVE. MINE IS CALLED "Hard Drive"
 
 
 # How to change .app logo
+First you need to have a logo with the ".icns" format(download here http://www.iconarchive.com/)
 Rightclick .app, then press "Get Info".
 Drag and drop your logo to the tiny logo in the top-left corner of the window
+Done!
