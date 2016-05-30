@@ -30,6 +30,12 @@ In El Capitan Repair Disk Permission in Disk Activity is gone!
 I run this every other month or after reinstall of Mac OS X or after an install of an application. Doing this sortens out a lot of bugs because of file permission errors.
 Open the script and export as application.
 
+# CustomDownloads
+A service which automatically opens ".doc", ".docx", ".ppt", ".xls", ".dot", ".torrent"-files when downloaded from a browser to "Downloads folder".
+Copy the script to /Users/Prince/Library/Workflows/Applications/Folder Actions/
+Then rightclick the Downloads-folder and go to service -> Folder action setup
+Mark the "Downloads" in the left area then press the "+"-sign and add the script
+
 # How to change .app logo
 First you need to have a logo with the ".icns" format(download here http://www.iconarchive.com/)
 Rightclick .app, then press "Get Info".
