@@ -1,7 +1,7 @@
 Automator
 =========
 
-Automator and AppleScript programming
+Automator and AppleScript programming!
 
 ## Add to Alfred blocklist
 Add any file to Alfred blocklist by just rightclicking the file in Finder.
@@ -34,11 +34,11 @@ Open the script and export as application.
 A Folder action service which automatically opens ".doc", ".docx", ".ppt", ".xls", ".dot", ".torrent"-files when downloaded from a browser to "Downloads folder".
 Copy the script to "/Users/Prince/Library/Workflows/Applications/Folder Actions/".
 Then rightclick the Downloads-folder and go to "service -> Folder action setup".
-Mark the "Downloads" in the left area then press the "+"-sign and add the script
+Mark the "Downloads" in the left area then press the "+"-sign and add the script.
 
 ## Move downloaded apps to apps-folder
 A Folder action service which moves .app applications automatically to /Applications folder.
-DoubleClick and install service
+Double-click and install as service.
 
 ## Convert to JPG
 Rightclick and image and select the service, then it will duplicate the image /
