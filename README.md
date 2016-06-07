@@ -31,10 +31,18 @@ I run this every other month or after reinstall of Mac OS X or after an install 
 Open the script and export as application.
 
 # CustomDownloads
-A service which automatically opens ".doc", ".docx", ".ppt", ".xls", ".dot", ".torrent"-files when downloaded from a browser to "Downloads folder".
+A Folder action service which automatically opens ".doc", ".docx", ".ppt", ".xls", ".dot", ".torrent"-files when downloaded from a browser to "Downloads folder".
 Copy the script to /Users/Prince/Library/Workflows/Applications/Folder Actions/
 Then rightclick the Downloads-folder and go to service -> Folder action setup
 Mark the "Downloads" in the left area then press the "+"-sign and add the script
+
+#Move downloaded apps to apps-folder
+A Folder action service which moves .app applications automatically to /Applications folder
+DoubleClick and install service
+
+#Convert to JPG
+Rightclick and image and select the service, then it will duplicate the image /
+convert the image to JPG.
 
 # How to change .app logo
 First you need to have a logo with the ".icns" format(download here http://www.iconarchive.com/)
