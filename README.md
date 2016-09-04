@@ -3,6 +3,8 @@ Automator
 
 Automator and AppleScript programming!
 
+# Projects:
+
 ## Add to Alfred blocklist
 Add any file to Alfred blocklist by just rightclicking the file in Finder.
 Install as service.
@@ -49,3 +51,8 @@ First you need to have a logo with the ".icns" format(download here http://www.i
 Rightclick .app, then press "Get Info".
 Drag and drop your logo to the tiny logo in the top-left corner of the window
 Done!
+
+## Convert video to 1080p(Google Cardboard compatible)
+In finder, right click a video and go to Services -> Convert video to 1080p(Google Cardboard compatible)
+This will convert the video to simple small sized 1080p video, which is compatible with most software/devices.
+For instance it is compatible with Google Cardboard players(I recommend AAA VR Player for Android), VLC on Mac & Android etc.
