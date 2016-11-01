@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>shouldAppend</key>
-					<true/>
+					<false/>
 					<key>textToAdd</key>
 					<string></string>
 				</dict>

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>381</string>
+	<string>428</string>
 	<key>AMApplicationVersion</key>
-	<string>2.4</string>
+	<string>2.7</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -61,7 +61,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>shouldAppend</key>
-					<true/>
+					<false/>
 					<key>textToAdd</key>
 					<string>alfred:ignore</string>
 				</dict>
@@ -126,14 +126,12 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:554.000000</string>
+				<string>649.000000:210.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Spotlight Comments for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Set Spotlight Comments for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
