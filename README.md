@@ -12,8 +12,13 @@ Install as service.
 ## Copy path as text
 Rightclick any file in Finder and click "Copy path as text" to get file path to clipboard! Install as service.
 
-## Download subtitles
-First download the Subtitles App(https://subtitlesapp.com)
+## Download subtitles(with FlixTools App)
+First download and install the FlixTools App and then install the script
+Then rightclick and movie yout want to search subtitles for, it will search and 
+download the subtitles file next to the movie then exit the program.
+
+## Download subtitles(with Subtitles App)
+First download and install the Subtitles App(https://subtitlesapp.com) then install the script
 Then rightclick and movie yout want to search subtitles for, it will search and 
 download the subtitles file next to the movie then exit the program.
 
