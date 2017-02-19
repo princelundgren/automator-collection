@@ -23,8 +23,14 @@ Then rightclick and movie yout want to search subtitles for, it will search and
 download the subtitles file next to the movie then exit the program.
 
 ## Google Chrome Incognito
-Start Google Chrome in Incognito Mode, or if its already open, just open a new window with incognito.
-Export the script as Application. 
+Easily start an Incognito session in Google Chrome by clicking an .app.
+If Google Chrome is already open with a normal window, this script open a new window in Incognito.
+To make a .app, open the script and export the script as Application. 
+
+## Firefox Private Browsing
+Easily start a Private Browsing session in Firefox by clicking an .app.
+If Firefox is already open with a normal window, this script open a new window in Private Browsing.
+To make a .app, open the script and export the script as Application. 
 
 ## Mount Hard Drive / Unmount Hard Drive
 I have two drives installed in my Macbook, one SSD(for OS+software) and one Harddrive(for media files).
