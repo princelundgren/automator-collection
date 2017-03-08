@@ -6,9 +6,15 @@ Automator and AppleScript programming!
 # Projects:
 
 ## PDF from images
-Right-click one or several images in finder and choose the service to convert/merge them into one PDF.
+Right-click one or several images in Finder and choose the service to convert/merge them into one PDF.
 The PDF created has the same file name as the first image chosen and is placed in the same folder
 as the original images(s).
+Install the workflow as a service.
+
+## Merge PDF Pages
+Right-click one or several PDFs in Finder and choose the service to merge them into one PDF.
+The PDF created has the same file name as the first PDF chosen and is placed in the same folder
+as the original PDF(s).
 Install the workflow as a service.
 
 ## Add to Alfred blocklist
