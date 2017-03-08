@@ -2,6 +2,7 @@ Automator
 =========
 
 Automator and AppleScript programming!
+My collection of favourite scripts and workflows for my productive Mac!
 
 # Projects:
 
