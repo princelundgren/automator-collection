@@ -40,6 +40,11 @@ Easily start an Incognito session in Google Chrome by clicking an .app.
 If Google Chrome is already open with a normal window, this script open a new window in Incognito.
 To make a .app, open the script and export the script as Application. 
 
+## Chromium Incognito
+Easily start an Incognito session in Chromium by clicking an .app.
+If Chromium is already open with a normal window, this script open a new window in Incognito.
+To make a .app, open the script and export the script as Application. 
+
 ## Firefox Private Browsing
 Easily start a Private Browsing session in Firefox by clicking an .app.
 If Firefox is already open with a normal window, this script open a new window in Private Browsing.
