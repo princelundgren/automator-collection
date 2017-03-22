@@ -35,6 +35,11 @@ First download and install the Subtitles App(https://subtitlesapp.com) then inst
 Then rightclick and movie yout want to search subtitles for, it will search and 
 download the subtitles file next to the movie then exit the program.
 
+## Safari Private
+Easily start a Private session in Safari by clicking an .app.
+If Safari is already open with a normal window, this script open a new window in Private mode.
+To make a .app, open the script and export the script as Application. 
+
 ## Google Chrome Incognito
 Easily start an Incognito session in Google Chrome by clicking an .app.
 If Google Chrome is already open with a normal window, this script open a new window in Incognito.
