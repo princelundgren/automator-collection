@@ -81,6 +81,21 @@ Rightclick .app, then press "Get Info".
 Drag and drop your logo to the tiny logo in the top-left corner of the window
 Done!
 
+## Search with YouTube
+A service which allows you to rightclick any text on your Mac and do a YouTube search of the text if you click the "Search with YouTube".
+It opens the search in a new tab.
+Install as service.
+
+## Search with ThePirateBay
+A service which allows you to rightclick any text on your Mac and do a ThePirateBay search of the text if you click the "Search with ThePirateBay".
+It opens the search in a new tab.
+Install as service.
+
+## Search with Google
+A service which allows you to rightclick any text on your Mac and do a Google search of the text if you click the "Search with Google".
+It opens the search in a new tab.
+Install as service.
+
 ## Convert video to 1080p(Google Cardboard compatible)
 In finder, right click a video and go to Services -> Convert video to 1080p(Google Cardboard compatible)
 This will convert the video to simple small sized 1080p video, which is compatible with most software/devices.
