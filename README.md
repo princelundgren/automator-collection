@@ -1,16 +1,16 @@
 Automator
 =========
 
-Automator and AppleScript programming!
-My collection of favourite scripts and workflows for my productive Mac!
+Automator and AppleScript programming!  
+My collection of favourite scripts and workflows for my productive Mac!  
 
 # Projects:
 
 ## PDF from images
-Right-click one or several images in Finder and choose the service to convert/merge them into one PDF.
-The PDF created has the same file name as the first image chosen and is placed in the same folder
-as the original images(s).
-Install the workflow as a service.
+Right-click one or several images in Finder and choose the service to convert/merge them into one PDF.  
+The PDF created has the same file name as the first image chosen and is placed in the same folder  
+as the original images(s).  
+Install the workflow as a service.  
 
 ## Merge PDF Pages
 Right-click one or several PDFs in Finder and choose the service to merge them into one PDF.
@@ -84,17 +84,17 @@ Done!
 ## Search with YouTube
 A service which allows you to rightclick any text on your Mac and do a YouTube search of the text if you click the "Search with YouTube".
 It opens the search in a new tab.
-Install as service.
+Install the workflow file as a service.
 
 ## Search with ThePirateBay
 A service which allows you to rightclick any text on your Mac and do a ThePirateBay search of the text if you click the "Search with ThePirateBay".
 It opens the search in a new tab.
-Install as service.
+Install the workflow file as a service.
 
 ## Search with Google
 A service which allows you to rightclick any text on your Mac and do a Google search of the text if you click the "Search with Google".
 It opens the search in a new tab.
-Install as service.
+Install the workflow file as a service.
 
 ## Convert video to 1080p(Google Cardboard compatible)
 In finder, right click a video and go to Services -> Convert video to 1080p(Google Cardboard compatible)
