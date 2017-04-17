@@ -95,9 +95,10 @@ A service which allows you to rightclick any text on your Mac and do a ThePirate
 It opens the search in a new tab.
 Install the workflow file as a service.
 
-## Search with Google
+## Search with Google / Open direct link
 A service which allows you to rightclick any text on your Mac and do a Google search of the text if you click the "Search with Google".
-It opens the search in a new tab.
+But if it really is a direct link(contains some of the popular stuff like http, https, .com, .org etc) then open the link directly
+It opens the search/link in a new tab.
 Install the workflow file as a service.
 
 ## Convert video to 1080p(Google Cardboard compatible)

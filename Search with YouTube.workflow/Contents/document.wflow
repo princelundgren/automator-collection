@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "Safari"		tell window 1			make new tab with properties {URL:"https://www.youtube.com/results?search_query=" &amp; input}		end tell	end tell	return inputend run</string>
+					<string>on run {input, parameters}	tell application "Safari"		tell window 1			set current tab to (make new tab with properties {URL:"https://www.youtube.com/results?search_query=" &amp; input})		end tell	end tell	return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>

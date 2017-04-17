@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "Safari"		tell window 1			make new tab with properties {URL:"https://www.google.se/search?q=" &amp; input}		end tell	end tell	return inputend run</string>
+					<string># This script opens a direct link in a new tab directly or if it is not a link then Google searchon run {input, parameters}	set inputString to item 1 of input	tell application "Safari"		activate		tell window 1			if (inputString contains "http") then # Contains http or https then input the link directly to the new tab				set current tab to (make new tab with properties {URL:input})			else if (inputString contains "www" or inputString contains "http" or inputString contains ".com" or inputString contains ".se" or inputString contains ".org" or inputString contains ".tv") then # Contains the normal direct links but missing http/https in the beginning				set current tab to (make new tab with properties {URL:"https://" &amp; input})			else # For everything else make a Google Search				set current tab to (make new tab with properties {URL:"https://www.google.se/search?q=" &amp; input})			end if		end tell	end tell	return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
