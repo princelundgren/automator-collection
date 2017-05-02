@@ -110,8 +110,8 @@ In finder, right click a video and go to Services -> Convert video to 1080p(Goog
 This will convert the video to simple small sized 1080p video, which is compatible with most software/devices.  
 For instance it is compatible with Google Cardboard players(I recommend AAA VR Player for Android), VLC on Mac & Android etc.  
 
-## Start Counter-Strike:Global Offensive in high CPU priority
-Use this script to start CS:GO in high CPU priority for better gaming performance.  
+## Start Counter-Strike:Global Offensive with high CPU priority
+Use this script to start CS:GO with high CPU priority for better gaming performance.  
 Export the script as .app for easier launch.  
 
 ## Crop image to 1080p
