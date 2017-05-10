@@ -89,6 +89,11 @@ Double-click and install as service.
 Rightclick and image and select the service, then it will duplicate the image and  
 convert it image to JPG.  
 
+## Search With Private Safari
+Rightclick any text or link in MacOS and choose this service to open a new  
+Private Safari windows with the text/link that is selected
+Install the workflow file as a service.  
+
 ## Search with YouTube
 A service which allows you to rightclick any text on your Mac and do a YouTube search of the text if you click the "Search with YouTube".  
 It opens the search in a new tab.  
