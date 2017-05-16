@@ -135,8 +135,6 @@
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -243,7 +241,12 @@
 					<string>PDF</string>
 				</array>
 				<key>AMParameterProperties</key>
-				<dict/>
+				<dict>
+					<key>EmbeddedQuartzFilter</key>
+					<dict/>
+					<key>URL</key>
+					<dict/>
+				</dict>
 				<key>AMProvides</key>
 				<dict>
 					<key>Container</key>
@@ -261,55 +264,8 @@
 				<string>Apply Quartz Filter to PDF Documents</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>EmbeddedQuartzFilter</key>
-					<dict>
-						<key>Domains</key>
-						<dict>
-							<key>Applications</key>
-							<true/>
-							<key>Printing</key>
-							<true/>
-						</dict>
-						<key>FilterData</key>
-						<dict>
-							<key>ColorSettings</key>
-							<dict>
-								<key>DocumentColorSettings</key>
-								<dict>
-									<key>CustomLHSCorrection</key>
-									<array>
-										<integer>8</integer>
-										<integer>8</integer>
-										<integer>8</integer>
-									</array>
-								</dict>
-								<key>ImageSettings</key>
-								<dict>
-									<key>Compression Quality</key>
-									<real>0.0</real>
-									<key>ImageCompression</key>
-									<string>ImageJPEGCompress</string>
-									<key>ImageScaleSettings</key>
-									<dict>
-										<key>ImageScaleFactor</key>
-										<real>0.5</real>
-										<key>ImageScaleInterpolate</key>
-										<true/>
-										<key>ImageSizeMax</key>
-										<integer>512</integer>
-										<key>ImageSizeMin</key>
-										<integer>128</integer>
-									</dict>
-								</dict>
-							</dict>
-						</dict>
-						<key>FilterType</key>
-						<integer>1</integer>
-						<key>Name</key>
-						<string>Reduce File Size</string>
-					</dict>
 					<key>URL</key>
-					<string>/System/Library/Filters/Reduce File Size.qfilter</string>
+					<string>/Users/prince/Library/Filters/Reduce File Size Smaller.qfilter</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.action.qfilterpdf</string>
@@ -344,136 +300,12 @@
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>649.000000:775.000000</string>
+				<string>649.000000:595.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Filter to PDF Documents.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.alias-object.pdf</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>570.3</string>
-				<key>AMApplication</key>
-				<array>
-					<string>PDF</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>compressionQuaility</key>
-					<dict/>
-					<key>compressionTag</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.alias-object.pdf</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Compress Images in PDF Documents.action</string>
-				<key>ActionName</key>
-				<string>Compress Images in PDF Documents</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>compressionQuaility</key>
-					<real>-1</real>
-					<key>compressionTag</key>
-					<integer>2</integer>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.action.compresspdf</string>
-				<key>CFBundleVersion</key>
-				<string>570.3</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryPDFs</string>
-				</array>
-				<key>Class Name</key>
-				<string>CompressPDF</string>
-				<key>Disabled</key>
-				<false/>
-				<key>InputUUID</key>
-				<string>273D5F82-19BA-4539-8AA7-01511E2D1A49</string>
-				<key>Keywords</key>
-				<array>
-					<string>Image</string>
-					<string>Picture</string>
-					<string>Photo</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>661ADDAA-E201-4859-BF4E-099B0B983742</string>
-				<key>StartAction</key>
-				<false/>
-				<key>UUID</key>
-				<string>8594DAE5-9F09-4919-8FD0-95F2B6277B7D</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>PDF</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>compressionTag</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<integer>1</integer>
-						<key>name</key>
-						<string>compressionQuaility</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>649.000000:935.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Compress Images in PDF Documents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -555,8 +387,6 @@
 				<array/>
 				<key>OutputUUID</key>
 				<string>298E3F8B-8EF6-4733-90BC-9DDDC7D1AAD5</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>DA79195C-2571-4265-8422-EF0FFDA50422</string>
 				<key>UnlocalizedApplications</key>
@@ -605,12 +435,10 @@
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>649.000000:1125.000000</string>
+				<string>649.000000:785.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -620,33 +448,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>66B7D81C-8205-495D-B2DF-34CC0E2B795D</key>
+		<key>0F2F1990-1072-4035-9272-182C788F85F5</key>
 		<dict>
 			<key>from</key>
 			<string>BD2FBA25-9547-4EF2-8A5B-05AC115456B0 - BD2FBA25-9547-4EF2-8A5B-05AC115456B0</string>
 			<key>to</key>
 			<string>94A618F7-B142-4CE7-BE7F-A762C568AFE3 - 94A618F7-B142-4CE7-BE7F-A762C568AFE3</string>
 		</dict>
-		<key>6D599216-DF4E-4D61-996B-A6BC81677389</key>
-		<dict>
-			<key>from</key>
-			<string>8594DAE5-9F09-4919-8FD0-95F2B6277B7D - 8594DAE5-9F09-4919-8FD0-95F2B6277B7D</string>
-			<key>to</key>
-			<string>DA79195C-2571-4265-8422-EF0FFDA50422 - DA79195C-2571-4265-8422-EF0FFDA50422</string>
-		</dict>
-		<key>D01705C0-986C-4B79-ADEF-A7D55332CC82</key>
+		<key>40EDC0A4-FC74-4E1E-8163-C45A3E812D06</key>
 		<dict>
 			<key>from</key>
 			<string>94A618F7-B142-4CE7-BE7F-A762C568AFE3 - 94A618F7-B142-4CE7-BE7F-A762C568AFE3</string>
 			<key>to</key>
 			<string>C082C754-F196-463B-A208-A56C19CAA90E - C082C754-F196-463B-A208-A56C19CAA90E</string>
 		</dict>
-		<key>DBF10622-6C0E-4C8C-B67C-EEEE4AE2CD38</key>
+		<key>5BFD8543-1045-46D5-B9B2-FB38FE2652AB</key>
 		<dict>
 			<key>from</key>
 			<string>C082C754-F196-463B-A208-A56C19CAA90E - C082C754-F196-463B-A208-A56C19CAA90E</string>
 			<key>to</key>
-			<string>8594DAE5-9F09-4919-8FD0-95F2B6277B7D - 8594DAE5-9F09-4919-8FD0-95F2B6277B7D</string>
+			<string>DA79195C-2571-4265-8422-EF0FFDA50422 - DA79195C-2571-4265-8422-EF0FFDA50422</string>
 		</dict>
 	</dict>
 	<key>variables</key>

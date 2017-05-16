@@ -24,7 +24,8 @@ Install the workflow as a service.
 
 ## Compress PDF Size
 Right-click one or several PDFs in Finder and choose the service to compress images in the PDF to a smaller size.  
-Can turn a 90 Mb PDF file into a 200Kb one!
+There is Smaller, Medium and Larger variants of the service. Larger has better quality than Smaller and Medium but also has larger file size.  
+The "Larger-variant can make a PDF twice as small while keeping almost the same quality. The "Smaller"-variant can turn a 90 Mb PDF file into a 200Kb one!  
 Install the workflow as a service.  
 
 ## Add to Alfred blocklist / Remove from Alfred blocklist
