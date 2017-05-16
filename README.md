@@ -87,7 +87,7 @@ Double-click and install as service.
 
 ## Convert to JPG
 Rightclick and image and select the service, then it will duplicate the image and  
-convert it image to JPG.  
+convert it image to JPG. 
 
 ## Search With Private Safari
 Rightclick any text or link in MacOS and choose this service to open a new  
