@@ -18,6 +18,141 @@
 					<key>Container</key>
 					<string>List</string>
 					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>message</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>You will get a notification when the process is complete.</string>
+						</array>
+					</dict>
+					<key>subtitle</key>
+					<dict/>
+					<key>title</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Merging PDF Pages...</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Display Notification.action</string>
+				<key>ActionName</key>
+				<string>Display Notification</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>message</key>
+					<string>You will get a notification when the process is complete.</string>
+					<key>subtitle</key>
+					<string></string>
+					<key>title</key>
+					<string>Merging PDF Pages...</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Display-Notification</string>
+				<key>CFBundleVersion</key>
+				<string>1.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMDisplayNotificationAction</string>
+				<key>InputUUID</key>
+				<string>4B4C4A61-5FDB-4371-B154-06C8A728879D</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>E31A639B-CDF7-4639-B7A8-F0478E309E86</string>
+				<key>UUID</key>
+				<string>41E3F84E-B17A-49B1-83A9-0352C024F35A</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>subtitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>title</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>message</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>649.000000:260.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
 					<false/>
 					<key>Types</key>
 					<array>
@@ -108,12 +243,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:176.000000</string>
+				<string>649.000000:366.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -212,12 +345,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:422.000000</string>
+				<string>649.000000:612.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -279,7 +410,7 @@ end run</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -322,12 +453,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:528.000000</string>
+				<string>649.000000:718.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -434,12 +563,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:683.000000</string>
+				<string>649.000000:821.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -538,12 +665,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:929.000000</string>
+				<string>649.000000:1067.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -648,12 +773,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:1035.000000</string>
+				<string>649.000000:1173.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -738,8 +861,6 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>20D2DC22-299D-40B5-9EF5-6F66B783B478</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>5536B5CF-25D3-4136-A564-FC41A1E74319</string>
 				<key>UnlocalizedApplications</key>
@@ -762,12 +883,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:1190.000000</string>
+				<string>649.000000:1276.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -840,8 +959,6 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>21D94B87-0066-40B1-A2DF-8BB0200DE026</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>07569F63-FFE8-43D1-A899-2F5232C900EF</string>
 				<key>UnlocalizedApplications</key>
@@ -864,12 +981,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:1313.000000</string>
+				<string>649.000000:1399.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1340,12 +1455,10 @@ end run</string>
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:1473.000000</string>
+				<string>649.000000:1559.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1466,14 +1579,147 @@ end run</string>
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:1576.000000</string>
+				<string>649.000000:1662.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>message</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>You should find the merged PDF(s) in the same folder as the original PDF(s).</string>
+						</array>
+					</dict>
+					<key>subtitle</key>
+					<dict/>
+					<key>title</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>PDF Merging is complete!</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Display Notification.action</string>
+				<key>ActionName</key>
+				<string>Display Notification</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>message</key>
+					<string></string>
+					<key>subtitle</key>
+					<string></string>
+					<key>title</key>
+					<string>PDF Merging is complete!</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Display-Notification</string>
+				<key>CFBundleVersion</key>
+				<string>1.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMDisplayNotificationAction</string>
+				<key>InputUUID</key>
+				<string>BCA888CE-901C-4DD8-970B-4CFC3D3A9516</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>056D0241-EA56-43A6-BE5F-D7CA5A348CFB</string>
+				<key>UUID</key>
+				<string>EEC577A0-AC7A-4800-9D11-3FB7F38E9EBE</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>subtitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>title</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>message</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>649.000000:1852.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1481,68 +1727,82 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0622E772-8697-4689-9E85-9C7F4B9E0F06</key>
+		<key>030B698A-E065-41BF-9B6E-52540FDDDF4F</key>
 		<dict>
 			<key>from</key>
-			<string>5536B5CF-25D3-4136-A564-FC41A1E74319 - 5536B5CF-25D3-4136-A564-FC41A1E74319</string>
+			<string>39B6515A-C57B-4685-8F98-819E5782C375 - 39B6515A-C57B-4685-8F98-819E5782C375</string>
 			<key>to</key>
-			<string>07569F63-FFE8-43D1-A899-2F5232C900EF - 07569F63-FFE8-43D1-A899-2F5232C900EF</string>
+			<string>EEC577A0-AC7A-4800-9D11-3FB7F38E9EBE - EEC577A0-AC7A-4800-9D11-3FB7F38E9EBE</string>
 		</dict>
-		<key>1C430169-C28F-48B9-BB3F-2CB79790AEB7</key>
+		<key>0CCA68AB-80FB-4027-9CF9-16948A4815D8</key>
 		<dict>
 			<key>from</key>
-			<string>07569F63-FFE8-43D1-A899-2F5232C900EF - 07569F63-FFE8-43D1-A899-2F5232C900EF</string>
-			<key>to</key>
-			<string>0BF42B3E-1710-47E3-825D-40461D52A24B - 0BF42B3E-1710-47E3-825D-40461D52A24B</string>
-		</dict>
-		<key>2400CBB7-F273-4747-9847-2E89EC9BFA23</key>
-		<dict>
-			<key>from</key>
-			<string>8A2940DC-C157-46DB-94B5-283D2F772F78 - 8A2940DC-C157-46DB-94B5-283D2F772F78</string>
-			<key>to</key>
 			<string>BD1485EF-01E1-446D-8628-BEC4F00DF782 - BD1485EF-01E1-446D-8628-BEC4F00DF782</string>
+			<key>to</key>
+			<string>6E3E7132-66AF-42A7-AEB4-06215AEB35F3 - 6E3E7132-66AF-42A7-AEB4-06215AEB35F3</string>
 		</dict>
-		<key>43C3CEDA-018E-4872-90CE-0D53B0DDF91C</key>
+		<key>1C0C683E-9E04-4D58-ADC6-E1F8ED66AC2C</key>
+		<dict>
+			<key>from</key>
+			<string>28F646CF-8271-4D5F-8787-F2B4813356C4 - 28F646CF-8271-4D5F-8787-F2B4813356C4</string>
+			<key>to</key>
+			<string>5536B5CF-25D3-4136-A564-FC41A1E74319 - 5536B5CF-25D3-4136-A564-FC41A1E74319</string>
+		</dict>
+		<key>38D8C620-1654-4603-B369-07EE55B79A42</key>
 		<dict>
 			<key>from</key>
 			<string>0BF42B3E-1710-47E3-825D-40461D52A24B - 0BF42B3E-1710-47E3-825D-40461D52A24B</string>
 			<key>to</key>
 			<string>39B6515A-C57B-4685-8F98-819E5782C375 - 39B6515A-C57B-4685-8F98-819E5782C375</string>
 		</dict>
-		<key>7BB2A435-F4F5-4528-8EF3-4394FD22C2B2</key>
+		<key>5C027513-9ABA-4536-8C4C-C8608C49E092</key>
 		<dict>
 			<key>from</key>
-			<string>BD1485EF-01E1-446D-8628-BEC4F00DF782 - BD1485EF-01E1-446D-8628-BEC4F00DF782</string>
-			<key>to</key>
 			<string>6E3E7132-66AF-42A7-AEB4-06215AEB35F3 - 6E3E7132-66AF-42A7-AEB4-06215AEB35F3</string>
+			<key>to</key>
+			<string>02D9428A-49C6-4ED5-9733-7C7CCF07BE88 - 02D9428A-49C6-4ED5-9733-7C7CCF07BE88</string>
 		</dict>
-		<key>8B5ADDEA-689E-4FFA-84E0-31AA6D89939D</key>
+		<key>6DA3E62F-5F6A-44E4-B2EC-2E094C2A4F93</key>
 		<dict>
 			<key>from</key>
-			<string>28F646CF-8271-4D5F-8787-F2B4813356C4 - 28F646CF-8271-4D5F-8787-F2B4813356C4</string>
-			<key>to</key>
 			<string>5536B5CF-25D3-4136-A564-FC41A1E74319 - 5536B5CF-25D3-4136-A564-FC41A1E74319</string>
+			<key>to</key>
+			<string>07569F63-FFE8-43D1-A899-2F5232C900EF - 07569F63-FFE8-43D1-A899-2F5232C900EF</string>
 		</dict>
-		<key>BDE77EFF-CDDB-4C93-AF09-A53DACB7F4F6</key>
+		<key>D3435A09-CDDC-4BE3-A227-8A9037532CB3</key>
+		<dict>
+			<key>from</key>
+			<string>41E3F84E-B17A-49B1-83A9-0352C024F35A - 41E3F84E-B17A-49B1-83A9-0352C024F35A</string>
+			<key>to</key>
+			<string>8A2940DC-C157-46DB-94B5-283D2F772F78 - 8A2940DC-C157-46DB-94B5-283D2F772F78</string>
+		</dict>
+		<key>DE5E6269-C3A7-47B7-82D5-C7EFB6F27368</key>
 		<dict>
 			<key>from</key>
 			<string>738285A8-F7E3-4007-AA90-EF587BED9112 - 738285A8-F7E3-4007-AA90-EF587BED9112</string>
 			<key>to</key>
 			<string>28F646CF-8271-4D5F-8787-F2B4813356C4 - 28F646CF-8271-4D5F-8787-F2B4813356C4</string>
 		</dict>
-		<key>FAB5B593-D58E-48C0-81FB-4781DCBB8BE1</key>
+		<key>EFF0891B-B1E2-443C-93BE-89531935D1CC</key>
 		<dict>
 			<key>from</key>
-			<string>6E3E7132-66AF-42A7-AEB4-06215AEB35F3 - 6E3E7132-66AF-42A7-AEB4-06215AEB35F3</string>
+			<string>8A2940DC-C157-46DB-94B5-283D2F772F78 - 8A2940DC-C157-46DB-94B5-283D2F772F78</string>
 			<key>to</key>
-			<string>02D9428A-49C6-4ED5-9733-7C7CCF07BE88 - 02D9428A-49C6-4ED5-9733-7C7CCF07BE88</string>
+			<string>BD1485EF-01E1-446D-8628-BEC4F00DF782 - BD1485EF-01E1-446D-8628-BEC4F00DF782</string>
 		</dict>
-		<key>FB396A80-2D3C-45EF-AF2C-4453F85CDD38</key>
+		<key>F375C45E-4042-40F5-8A1A-A55A5E36184A</key>
 		<dict>
 			<key>from</key>
 			<string>02D9428A-49C6-4ED5-9733-7C7CCF07BE88 - 02D9428A-49C6-4ED5-9733-7C7CCF07BE88</string>
 			<key>to</key>
 			<string>738285A8-F7E3-4007-AA90-EF587BED9112 - 738285A8-F7E3-4007-AA90-EF587BED9112</string>
+		</dict>
+		<key>F3849306-185D-490D-915D-53AC9BE3E7FA</key>
+		<dict>
+			<key>from</key>
+			<string>07569F63-FFE8-43D1-A899-2F5232C900EF - 07569F63-FFE8-43D1-A899-2F5232C900EF</string>
+			<key>to</key>
+			<string>0BF42B3E-1710-47E3-825D-40461D52A24B - 0BF42B3E-1710-47E3-825D-40461D52A24B</string>
 		</dict>
 	</dict>
 	<key>variables</key>

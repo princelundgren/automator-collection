@@ -22,6 +22,11 @@ The PDF created has the same file name as the first PDF chosen and is placed in 
 as the original PDF(s).  
 Install the workflow as a service.  
 
+## Compress PDF Size
+Right-click one or several PDFs in Finder and choose the service to compress images in the PDF to a smaller size.  
+Can turn a 90 Mb PDF file into a 200Kb one!
+Install the workflow as a service.  
+
 ## Add to Alfred blocklist / Remove from Alfred blocklist
 Add any file to Alfred blocklist by just rightclicking the file in Finder. Use the script  
 "Remove from Alfred blocklist" to remove the file from the blocklist.  
