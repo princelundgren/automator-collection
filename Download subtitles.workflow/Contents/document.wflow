@@ -33,20 +33,20 @@
 					<key>message</key>
 					<dict>
 						<key>tokenizedValue</key>
-						<array/>
+						<array>
+							<string>You will get a notification when the process is complete.</string>
+						</array>
 					</dict>
 					<key>subtitle</key>
 					<dict>
 						<key>tokenizedValue</key>
-						<array>
-							<string>This may take a few seconds...</string>
-						</array>
+						<array/>
 					</dict>
 					<key>title</key>
 					<dict>
 						<key>tokenizedValue</key>
 						<array>
-							<string>Downloading subtitles</string>
+							<string>Downloading subtitles...</string>
 						</array>
 					</dict>
 				</dict>
@@ -64,11 +64,11 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>message</key>
-					<string></string>
+					<string>You will get a notification when the process is complete.</string>
 					<key>subtitle</key>
-					<string>This may take a few seconds...</string>
+					<string></string>
 					<key>title</key>
-					<string>Downloading subtitles</string>
+					<string>Downloading subtitles...</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Display-Notification</string>
@@ -1346,82 +1346,82 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>260B187A-BBDB-4AF9-9070-CE6F4F0FC32E</key>
+		<key>00EF7B04-D006-448C-8F69-3FBA274AA4CA</key>
+		<dict>
+			<key>from</key>
+			<string>127074F3-4A19-4F2D-95FA-45EE770C2B18 - 127074F3-4A19-4F2D-95FA-45EE770C2B18</string>
+			<key>to</key>
+			<string>62EDE6D8-E052-459D-8247-B6FF8EE93EE3 - 62EDE6D8-E052-459D-8247-B6FF8EE93EE3</string>
+		</dict>
+		<key>0408B70D-B067-45D6-A3C2-78090F0ECF70</key>
+		<dict>
+			<key>from</key>
+			<string>A5F20792-6ACE-4DD5-ABB5-8D00530D0C82 - A5F20792-6ACE-4DD5-ABB5-8D00530D0C82</string>
+			<key>to</key>
+			<string>A5233BA6-6030-4103-BB30-6C5C55D50BBF - A5233BA6-6030-4103-BB30-6C5C55D50BBF</string>
+		</dict>
+		<key>14421A41-637E-4E98-9972-EDE97615AB96</key>
 		<dict>
 			<key>from</key>
 			<string>7F166F67-5022-4492-8508-A59390E79FAF - 7F166F67-5022-4492-8508-A59390E79FAF</string>
 			<key>to</key>
 			<string>B5A5C20A-443D-439E-85B8-C2867F6F6E0F - B5A5C20A-443D-439E-85B8-C2867F6F6E0F</string>
 		</dict>
-		<key>2F448107-086C-4588-8707-5C3D18468852</key>
+		<key>14BD18BA-9C27-4C4F-AB7E-52438CA18A93</key>
 		<dict>
 			<key>from</key>
 			<string>A5233BA6-6030-4103-BB30-6C5C55D50BBF - A5233BA6-6030-4103-BB30-6C5C55D50BBF</string>
 			<key>to</key>
 			<string>127074F3-4A19-4F2D-95FA-45EE770C2B18 - 127074F3-4A19-4F2D-95FA-45EE770C2B18</string>
 		</dict>
-		<key>42A545F2-D846-4CC8-A884-AE5B65F4E310</key>
+		<key>3CC71CB1-66C5-4B04-848D-BB508F62E233</key>
 		<dict>
 			<key>from</key>
-			<string>B9DA91AB-F2EA-4050-97F3-446240C6A76B - B9DA91AB-F2EA-4050-97F3-446240C6A76B</string>
+			<string>7469A181-A53E-4112-AE10-D7C557043171 - 7469A181-A53E-4112-AE10-D7C557043171</string>
 			<key>to</key>
-			<string>189D8858-5E2C-4C1D-BF36-A4E3E1B95E72 - 189D8858-5E2C-4C1D-BF36-A4E3E1B95E72</string>
+			<string>A5F20792-6ACE-4DD5-ABB5-8D00530D0C82 - A5F20792-6ACE-4DD5-ABB5-8D00530D0C82</string>
 		</dict>
-		<key>710155AE-B2AC-449D-A828-51BC31C85B0A</key>
-		<dict>
-			<key>from</key>
-			<string>127074F3-4A19-4F2D-95FA-45EE770C2B18 - 127074F3-4A19-4F2D-95FA-45EE770C2B18</string>
-			<key>to</key>
-			<string>62EDE6D8-E052-459D-8247-B6FF8EE93EE3 - 62EDE6D8-E052-459D-8247-B6FF8EE93EE3</string>
-		</dict>
-		<key>85080727-7573-42AE-A9E4-93D1F078247F</key>
+		<key>4287F79E-0A4C-4EAE-940D-4388C710A6FB</key>
 		<dict>
 			<key>from</key>
 			<string>96E0ABFC-2656-4EFA-8A0F-E414805EBC71 - 96E0ABFC-2656-4EFA-8A0F-E414805EBC71</string>
 			<key>to</key>
 			<string>657F30FF-A663-4A2D-8268-6D5753A8550D - 657F30FF-A663-4A2D-8268-6D5753A8550D</string>
 		</dict>
-		<key>89889E00-D91D-41A5-959A-DDE44A39BD4F</key>
-		<dict>
-			<key>from</key>
-			<string>7F836DD8-0555-4E02-970B-6CE3AE9C8254 - 7F836DD8-0555-4E02-970B-6CE3AE9C8254</string>
-			<key>to</key>
-			<string>7469A181-A53E-4112-AE10-D7C557043171 - 7469A181-A53E-4112-AE10-D7C557043171</string>
-		</dict>
-		<key>94A63264-7126-47F2-8A84-AB719EE87448</key>
-		<dict>
-			<key>from</key>
-			<string>657F30FF-A663-4A2D-8268-6D5753A8550D - 657F30FF-A663-4A2D-8268-6D5753A8550D</string>
-			<key>to</key>
-			<string>B9DA91AB-F2EA-4050-97F3-446240C6A76B - B9DA91AB-F2EA-4050-97F3-446240C6A76B</string>
-		</dict>
-		<key>C76FFCBE-E66C-4F91-9159-932182FF3B7F</key>
-		<dict>
-			<key>from</key>
-			<string>7469A181-A53E-4112-AE10-D7C557043171 - 7469A181-A53E-4112-AE10-D7C557043171</string>
-			<key>to</key>
-			<string>A5F20792-6ACE-4DD5-ABB5-8D00530D0C82 - A5F20792-6ACE-4DD5-ABB5-8D00530D0C82</string>
-		</dict>
-		<key>DA87CC83-E17E-4FED-B03B-CE1DF3AB05FF</key>
-		<dict>
-			<key>from</key>
-			<string>A5F20792-6ACE-4DD5-ABB5-8D00530D0C82 - A5F20792-6ACE-4DD5-ABB5-8D00530D0C82</string>
-			<key>to</key>
-			<string>A5233BA6-6030-4103-BB30-6C5C55D50BBF - A5233BA6-6030-4103-BB30-6C5C55D50BBF</string>
-		</dict>
-		<key>E1AD1051-F1C6-459C-AA3D-C75CD0135FD2</key>
+		<key>51AE4EF8-CE80-441F-93EA-CAD4C60F691E</key>
 		<dict>
 			<key>from</key>
 			<string>62EDE6D8-E052-459D-8247-B6FF8EE93EE3 - 62EDE6D8-E052-459D-8247-B6FF8EE93EE3</string>
 			<key>to</key>
 			<string>7F166F67-5022-4492-8508-A59390E79FAF - 7F166F67-5022-4492-8508-A59390E79FAF</string>
 		</dict>
-		<key>E48FCD55-97B2-4671-BA6C-7BDDEA81D0EE</key>
+		<key>608B682B-9C39-4888-A99E-F787A6E254E3</key>
+		<dict>
+			<key>from</key>
+			<string>B9DA91AB-F2EA-4050-97F3-446240C6A76B - B9DA91AB-F2EA-4050-97F3-446240C6A76B</string>
+			<key>to</key>
+			<string>189D8858-5E2C-4C1D-BF36-A4E3E1B95E72 - 189D8858-5E2C-4C1D-BF36-A4E3E1B95E72</string>
+		</dict>
+		<key>647D97C8-0488-479B-B9B0-53F79E6D742B</key>
+		<dict>
+			<key>from</key>
+			<string>657F30FF-A663-4A2D-8268-6D5753A8550D - 657F30FF-A663-4A2D-8268-6D5753A8550D</string>
+			<key>to</key>
+			<string>B9DA91AB-F2EA-4050-97F3-446240C6A76B - B9DA91AB-F2EA-4050-97F3-446240C6A76B</string>
+		</dict>
+		<key>697CCE6F-4F71-4BBF-B768-7BA65154A8C7</key>
 		<dict>
 			<key>from</key>
 			<string>189D8858-5E2C-4C1D-BF36-A4E3E1B95E72 - 189D8858-5E2C-4C1D-BF36-A4E3E1B95E72</string>
 			<key>to</key>
 			<string>7F836DD8-0555-4E02-970B-6CE3AE9C8254 - 7F836DD8-0555-4E02-970B-6CE3AE9C8254</string>
+		</dict>
+		<key>788A0841-8528-4019-836E-37A101F329E9</key>
+		<dict>
+			<key>from</key>
+			<string>7F836DD8-0555-4E02-970B-6CE3AE9C8254 - 7F836DD8-0555-4E02-970B-6CE3AE9C8254</string>
+			<key>to</key>
+			<string>7469A181-A53E-4112-AE10-D7C557043171 - 7469A181-A53E-4112-AE10-D7C557043171</string>
 		</dict>
 	</dict>
 	<key>variables</key>
