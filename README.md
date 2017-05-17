@@ -94,6 +94,8 @@ Double-click and install as service.
 ## Convert to JPG
 Rightclick and image and select the service, then it will duplicate the image and  
 convert it image to JPG. 
+There are different workflows for different resolutions. 1920p converts the size to 1920p, while "Preserve" preserves the resolution after conversion.  
+Install the workflows as services.  
 
 ## Search With Private Safari
 Rightclick any text or link in MacOS and choose this service to open a new  
