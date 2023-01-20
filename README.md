@@ -10,6 +10,12 @@ My collection of favourite scripts and workflows for my productive Mac!
 Right-click any file or folder in Finder and click "Create Text File"(located in services) to create a new text file "Untitled.txt".  
 Install the workflow as service.  
 
+## Open file/folder in Visual Studio Code
+
+Right-click any file or folder in Finder and go to "Quick Actions" -> "Open in Visual Studio Code".
+If you open a folder, then it will open a new Visual Studio Code window with the folder. If you open a file, it will open the file in a new tab if you are already have an existing Visual Studio Code window.
+Install the workflow as service.  
+
 ## PDF from images
 Right-click one or several images in Finder and choose the service to convert/merge them into one PDF.  
 The PDF created has the same file name as the first image chosen and is placed in the same folder  
